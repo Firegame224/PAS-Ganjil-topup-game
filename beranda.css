@@ -1,0 +1,411 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* Navbarrrrrrrrrrrrrrrrrr */
+
+/* Badan fullsc */
+body {
+    background-color: black;
+    flex-wrap:wrap ;
+}
+
+/* bg-head */
+/* .bg-head {
+    background-color: gray;
+    height: 78px;
+} */
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: xx-large;
+    color:white;
+}
+
+/* Video header */
+.bg-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    object-fit: cover; 
+    z-index: -1;
+    display: flex;
+}
+
+
+
+/* Icon F */
+.icon {
+    height: auto;
+    width: 58px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+.Header {
+    display: flex;
+    justify-content: space-between; /* Memisahkan logo dan nav */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* Nav */
+.Nav {
+    display: flex;
+    list-style: none;
+    margin-left: auto; 
+    font-size: xx-large;
+    font-weight: 700;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+/* list piihan */
+.list {
+    display: flex;
+    margin-left: 20px; 
+    text-decoration: none;
+    color:white; 
+    align-items: center;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+/* Hoverrr */
+.list:hover{
+    border-bottom: 2px solid white; 
+    
+}
+
+/* gariss */
+.garis{
+    background-color: aqua;
+    height: 1px;
+}
+
+
+
+
+.vid{
+    display: flex;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 230vh;
+}
+
+
+
+/* Judul */
+.judul {
+    color:white;
+    margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.judul1 {
+    color:white;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* Slidee */
+
+/* div slide */
+.sliderr{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* CSS untuk gambar slide */
+.slide {
+    display: none;
+    border-radius: 0 100px;
+    height: auto;
+    width: 59vw;
+    flex-wrap: wrap;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  /* Animasi transisi */
+  .fade {
+    animation: fade 1.5s;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0.4; } 
+    to { opacity: 1; }
+  }
+
+
+
+
+
+
+
+  /* Popular */
+  .popular {
+    color: white;
+    margin-left: 32px;
+    margin-top: 50px;
+  }
+
+  /* ml */
+.popularml{
+    height: auto;
+    width: 320px;
+    margin-left: 32px;
+    border-radius: 16px;
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/* menu topupp */
+/* topup */
+.topup {
+    margin-top: 40px;
+    margin-left: 32px;
+    color: white;
+}
+
+.menu1{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.menu2{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+
+
+/* img menu topup*/
+.imgtopup{
+    width: 208px;
+    height: auto;
+    margin-left: 36px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    list-style-type:none ;
+}
+
+.hov:hover{
+transition: 2s;
+transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/* Joki */
+.joki1{
+    color: white;
+    margin-left: 32px;
+    margin-top: 40px;
+}
+
+/* menu joki */
+.joki{
+    display: flex;
+    margin-top: 13px;
+    flex-wrap: wrap;
+}
+
+/* menu joki */
+.menujoki{
+    height: auto;
+    width: 320px;
+    margin-top: 8px;
+    margin-left: 40px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+/* penutup */
+
+/* h1 penutup */
+.penutup{
+    color: white;
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.penutup_p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: rgb(16, 13, 13);
+}
+
+.foot{
+ display: flex;   
+ margin-top: 30px;
+}
+
+.imgfot1{
+    width: 56px;
+    height: 56px;
+}
+
+.imgfot2{
+    width: 56px;
+    height: 56px;
+}
+
+.fottext{
+    color: white;
+    font-size: larger;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    flex: content;
+}
+
+
+
+
+
+
+
+
+
+
+/* respon */
+@media (max-width: 430px) {
+    .imgtopup {
+        width: 100%; 
+        max-width: 140px; 
+        height: auto; 
+    }
+
+    .menujoki {
+        width: 100%;
+        max-width: 140px;
+        height: auto; 
+    }
+
+    .popularml {
+        width: 100%;
+        max-width: 180px; 
+        height: auto; 
+    }
+
+    .Nav{
+        font-size: 10px;
+    }
+
+    .logo{
+        font-size: 13px;
+    }
+
+    .icon{
+        height: auto;
+        width: 100%;
+        max-width: 36px;
+    }
+
+    .slide{
+        width: 90vw;
+    }
+
+    .penutup_p{
+        font-size: small;
+    }
+
+    .penutup{
+        font-size: x-large;
+    }
+
+    .imgfot1,.imgfot2{
+        width: 100%;
+        height: auto;
+        max-width: 46px;
+    }
+
+    .fottext{
+        font-size: small;
+    }
+
+    .bg-vid{
+        height: 100%;
+        width: auto;
+        max-height: 100vh;
+    }
+        
+}
+
+@media (max-width: 430px) {
+    .bg-vid {
+        height: 7vh; 
+    }
+}
