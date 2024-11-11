@@ -92,11 +92,16 @@ body {
     
 }
 
+.obj{
+    border-bottom: 2px solid ;
+}
+
 /* gariss */
 .garis{
     background-color: aqua;
     height: 1px;
 }
+
 
 
 
