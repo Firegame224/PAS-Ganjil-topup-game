@@ -4,46 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="shortcut icon" href="img/Group 1.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="loginbox">
-        <form action="">
-            <div>
-                <h2>Login</h2>
-                <div class="x">
-                    <a href="beranda.html"><ion-icon name="close"></ion-icon></a>
-                </div>
-            </div>
+    <form id="Login">
+        <h2>Login</h2>
+        <input class="input" id="gmail" type="email" placeholder="Email">
+        <input class="input" id="password" type="password" placeholder="Password">
+        <input class="submit" type="submit" value="Login">
+        <p id="pesan"></p>
+    </form>
+    
+    
+    <video class="bgvid" src="img/bg-daftar.mp4" loop autoplay muted></video>
 
-            <div class="inputbox">
-                <span class="icon">
-                    <ion-icon name="mail"></ion-icon>
-                </span>
-                <input type="email" placeholder="">
-                <label>Email</label>
-            </div>
-            <div class="inputbox">
-                <span class="icon">
-                    <ion-icon name="lock-closed"></ion-icon>
-                </span>
-                <input type="password" placeholder="">
-                <label>Kata Sandi</label>
-            </div>
-            <div class="rememberforgot">
-                <label>
-                    <input type="checkbox">Ingat saya
-                </label>
-                <a href="#">Lupa Kata Sandi?</a>
-            </div>
-            <a href="beranda.html"><button type="submit">Login</button></a>
-            <div class="daftarlogin">
-                <p>Tidak Memiliki Akun?<a href="daftar.html">Daftar</a></p>
-            </div>
-        </form>
-    </div>
-    <img class="bgvid" src="img/bg.-log.jpg">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="test.js"></script>
 </body>
 </html>
