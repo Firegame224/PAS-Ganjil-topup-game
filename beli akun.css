@@ -145,7 +145,7 @@ z-index: -99;
 .akun{
 width: 200px;
 margin-top: 10px;
-margin-left: 14px;
+margin-left: 16px;
 border-radius: 10px;
 }
 
@@ -155,7 +155,25 @@ border-radius: 10px;
     justify-content: center;
     text-align: center;
     margin-top: 20px;
+
+
 }
+
+.button{
+    color: white;
+    border-radius: 15px;
+    font-size: 28px;
+    background-color:grey;
+    margin-left: 43px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+
+
+
+
 
 
 
