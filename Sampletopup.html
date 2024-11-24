@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastStore</title>
+    <link rel="shortcut icon" href="img/Group 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <!-- Navbar -->
+   <header class="bg-head">
+    <video class="bg-vid" src="img/abs.mp4" loop muted  autoplay></video>
+    <div class="Header">
+        <div class="logo">
+
+            <img class="icon" src="img/Group 1.png" alt="">
+        <strong><li>FastStore</li></strong>
+        </div>
+    <nav>
+            <ul class="Nav">
+            <li><a class="list" href="beranda.html"> < Kembali</a></li>
+    </nav>  </ul>
+    </div>
+   </header> 
+   <hr class="garis">
+    <!-- Content -->
+    <!-- keterangan game -->
+    <div class="containerket">
+        <p id="cb"></p>
+        <div class="ket">
+            <img src="img/ml topup.png" width="100%" height="100%">
+        </div>
+    <div class="poskart">
+        <div class="kartuik">
+            <span><ion-icon class="ikon" name="shield-checkmark-outline"></ion-icon></span>
+            <label class="tul" style="text-align: justify;" for="ikon">Transaksi yang aman.</label>
+        </div>
+        <div class="kartuik1">
+            <span class="ikonhs"><img src="img/Group 30.png" width="18px" height="18px"></span>
+            <label class="tul" style="text-align: justify;" for="ikon">Layanan pelanggan <br>24/7</label>
+        </div>
+    </div>
+        <p class="teksket">Fast Store menawarkan top up Mobile Legends yang mudah, aman, dan instan.
+            <br>
+            <br>
+            Pembayaran tersedia melalui Gopay, Dana dan Qris.Top up Diamond Mobile Legends dalam hitungan detik! 
+        </p>
+        <br>
+        <p class="teksket">
+            Cukup masukkan User ID dan Zone ID MLBB Anda,pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran,dan Diamond akan secara langsung ditambahkan ke akun Mobile Legends Anda.
+        </p>
+    </div>
+    <!-- keterangan game done -->
+    <!-- pilih topup -->
+<div class="Boxid">
+    <form>
+    <p class="no1" style="font-size: larger;"><b>1</b></p>
+    <h3 class="tlsn" style="font-family:sans-serif;">MASUKAN UID ANDA</h3>
+    <div class="posisi">
+        <div class="inptbox">
+                <input id="inpt" class="inpt" type="number" inputmode="numeric" placeholder="Masukan UID" required minlength="1" maxlength="10" oninput="TampilkanAngka()">
+        </div>
+        <div class="inptbox1">
+                <input id="inpt1" class="inpt" type="number" inputmode="numeric" placeholder="Masukan server" required minlength="1" maxlength="5" oninput="TampilkanAngka()">
+                <label class="er1">(</label>
+                <label class="er2">)</label>
+        </div>
+    </div>
+    <p class="ketop"><i>Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri atas pada menu utama game. User ID akan terlihat dibagian bawah Nama Karakter Game Anda. Silahkan masukkan User ID Anda untuk menyelesaikan transaksi. Contoh : 12345678(1234).</i></p>
+    </form>
+</div>
+    <!-- transaksi -->
+
+    <div class="trdpl">
+    <p class="no2" style="font-size: larger;"><b>2</b></p>
+    <h3 class="tlsn1" style="font-family:sans-serif;">PILIH ITEM</h3>
+        <div class="cbdl">
+            <button class="btn" id="btn1" onclick="activateMenu(this)">
+                <p style="font-family:'Aria';"><b>45+5 Diamond</b></p>
+                <img src="img/dm1px-removebg-preview.png" width="60%" height="60%">
+                <br>
+                <div class="tlis">
+                    <p class="har">Harga:</p>
+                    <p class="har">Rp.13.000</p>
+                    <div class="dis">
+                        <p class="har2">13%</p>
+                        <p class="har1"><s>Rp.15.000</s></p>
+                    </div>
+                </div>
+            </button>
+            <button class="btn" id="btn2" onclick="activateMenu(this)">
+                <p style="font-family:'Aria';"><b>130+10 Diamond</b></p>
+                <img src="img/dm2-removebg-preview (1).png" width="60%" height="60%">
+                <br>
+                <div class="tlis">
+                    <p class="har">Harga:</p>
+                    <p class="har">Rp.24.000</p>
+                    <div class="dis">
+                        <p class="har2">20%</p>
+                        <p class="har1"><s>Rp.30.000</s></p>
+                    </div>
+                </div>
+            </button>
+            <button class="btn" id="btn3" onclick="activateMenu(this)">
+                <p style="font-family:'Aria';"><b>240+20 Diamond</b></p>
+                <img src="img/dm4-removebg-preview (1).png" width="60%" height="60%">
+                <br>
+            <div class="tlis">
+                <p class="har">Harga:</p>
+                <p class="har">Rp.45.000</p>
+            <div class="dis">
+                <p class="har2">24%</p>
+                <p class="har1"><s>Rp.59.000</s></p>
+            </div>
+            </div>
+            </button>
+        <button class="btn" id="btn4" onclick="activateMenu(this)">
+            <p style="font-family:'Aria';"><b>310+34 Diamond</b></p>
+            <img src="img/dm5-removebg-preview (1).png" width="60%" height="60%">
+            <br>
+            <div class="tlis">
+                <p class="har">Harga:</p>
+                <p class="har">Rp.77.000</p>
+            <div class="dis">
+                <p class="har2">13%</p>
+                <p class="har1"><s>Rp.89.000</s></p>
+            </div>
+            </div>
+        </button>
+        <button class="btn" id="btn5" onclick="activateMenu(this)">
+            <p style="font-family:'Aria';"><b>720+40 Diamond</b></p>
+            <img src="img/dm3-removebg-preview (1).png" width="60%" height="60%">
+            <br>
+            <div class="tlis">
+                <p class="har">Harga:</p>
+                <p class="har">Rp.140.000</p>
+            <div class="dis">
+                <p class="har2">18%</p>
+                <p class="har1"><s>Rp.160.000</s></p>
+            </div>
+            </div>
+        </button>
+    </div>
+</div>
+    <!-- transaksi Done -->
+    <!-- Pembayaran -->
+<div class="dispform">
+    <p class="no2" style="font-size: larger;"><b>3</b></p>
+    <h3 class="tlsn1" style="font-family:sans-serif;">PILIH METODE PEMBAYARAN</h3>
+    <button class="pembut" id="gopay" onclick="ActivateMenu(this)">
+        <img class="gopay" src="img/Gopay.png" width="35%" height="60%">
+        <p class="hggpy" style="text-align: end;" id="tes"></p>
+    </button>
+    <button class="pembut" id="dana" onclick="ActivateMenu(this)">
+        <img class="dana" src="img/Dana.png" width="45%" height="40%">
+        <p class="hggpy" style="text-align: end;" id="tes1"></p>
+    </button>
+    <button class="pembut" id="ovo" onclick="ActivateMenu(this)">
+        <img class="ovo" src="img/Ovo.png" width="30%" height="35%">
+        <p class="hggpy" style="text-align: end;" id="tes2"></p>
+    </button>
+</div>
+    <!-- Pembayaran Done -->
+    <!-- Akhir -->
+<div class="baysr">
+    <p class="no2" style="font-size: larger;"><b>4</b></p>
+    <h3 class="tlsn2" style="font-family:sans-serif;">SELESAIKAN TRANSAKSI</h3>
+    <div class="posumb">
+    <button onclick="subb('triger')" id="sbmtt" class="sbmt">
+        <div class="tlu"><p><b>Beli Sekarang</b></p></div>
+    </button>
+    </div>
+</div>
+    <div class="kotakstruk" id="kotakstruk">
+        <span class="closeicon" id="close" onclick="subb('triger2')">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <p><h3 class="tlsn3" style="font-family:sans-serif;">DETAIL PESANAN</h3></p>
+        <p class="lbl">Mohon periksa kembali UID anda apakah sudah benar.</p>
+        <div class="Idstruk">
+            <p>UID   :</p>
+            <p class="pid" id="aidi"></p>
+        </div>
+        <hr>
+        <div class="Idstruk1">
+            <p>Metode Pembayaran   :</p>
+            <p class="pid" id="paymen"></p>
+        </div>
+        <hr>
+        <div class="Idstruk2">
+            <p>Harga   :</p>
+            <p class="pid" id="rega"></p>
+        </div>
+        <hr>
+        <div class="kotakbyr">
+            <p class="ttl">Total Pembayaran :</p>
+            <p class="hgr" id="ttl"></p>
+            <button class="pay" id="pya" onclick="Bayar('ahay')" type="submit">Bayar</button>
+        </div>
+    </div>
+    <!-- content done -->
+<!-- Footer -->
+<footer class="footer">
+    <hr class="garis">
+    <div class="foot">
+        <div class="posfot">
+        <ul><a href="https://wa.me/628895762974"><img class="imgfot1" src="img/wa.png" alt=""></a></ul>
+        <ul><a href="https://www.instagram.com/faststoree_00/"><img class="imgfot2" src="img/ig.png" alt=""></a></ul>
+        </div>
+        <ul class="fottext">
+            <li>Fast Store adalah Platform Top Up game Termurah di Indonesia.
+            Penuhi kebutuhan Gaming Mu bersama Fast Store.<br>
+            Store terbaik dan Ter Murah, Ter Aman, Ter Percaya dan Legal 100%<br>
+            (Open 24 jam)</li>
+        </ul>
+    </div>
+</footer>
+     <video class="bg-vid2" src="img/bg-vid body.mp4" loop muted autoplay></video>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <script src="sample.js"></script>
+</body>
+</html>

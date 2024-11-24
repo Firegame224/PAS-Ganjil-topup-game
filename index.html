@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="shortcut icon" href="img/Group 1.png" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
+    <title>Test Login</title>
+    <link rel="stylesheet" href="pp.css">
 </head>
 <body>
-    <form id="Login">
+    <div class="lg" id="Login">
         <h2>Login</h2>
-        <input class="input" id="gmail" type="email" placeholder="Email">
-        <input class="input" id="password" type="password" placeholder="Password">
-        <input class="submit" type="submit" value="Login">
+        <input class="input" id="login-gmail" type="email" placeholder="UserName">
+        <input class="input" id="login-password" type="password" placeholder="Password">
+        <input class="submit" type="button" value="Login" onclick="LoginUser ()">
+        <button onclick="Pindah('1')" class="daftar0">Click di sini jika belum punya akun</button>
         <p id="pesan"></p>
-    </form>
+    </div>
     
-    
+    <div class="df" id="Daftar">
+        <h2>Daftar</h2>
+        <input class="input" id="daftar-gmail" type="email" placeholder="UserName">
+        <input class="input" id="daftar-password" type="password" placeholder="Password">
+        <input class="submit" type="button" value="Daftar" onclick="DaftarUser ()">
+        <button onclick="Pindah('2')" class="login0">Click di sini jika sudah punya akun</button>
+        <p id="pesan"></p>
+    </div>
+
     <video class="bgvid" src="img/bg-daftar.mp4" loop autoplay muted></video>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="test.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,747 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+/* Navbarrrrrrrrrrrrrrrrrr */
+
+/* Badan fullsc */
+body {
+    background-color: black;
+    flex-wrap:wrap ;
+}
+
+/* bg-head */
+/* .bg-head {
+    background-color: gray;
+    height: 78px;
+} */
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: xx-large;
+    color:white;
+}
+
+/* Video header */
+.bg-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12vh;
+    object-fit: cover; 
+    z-index: -1;
+    display: flex;
+}
+.bg-vid1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 9.5vh;
+    object-fit: cover; 
+    z-index: -1;
+    display: flex;
+}
+
+
+/* Icon F */
+.icon {
+    height: auto;
+    width: 58px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+.Header {
+    display: flex;
+    justify-content: space-between; /* Memisahkan logo dan nav */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Nav */
+.Nav {
+    display: flex;
+    list-style: none;
+    margin-left: auto; 
+    font-size: xx-large;
+    font-weight: 700;
+    margin-right: 90px;
+    flex-wrap: wrap;
+}
+
+/* list piihan */
+.list {
+    display: flex;
+    margin-left: 20px; 
+    text-decoration: none;
+    color:white; 
+    align-items: center;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+/* Hoverrr */
+.list:hover{
+    border-bottom: 2px solid white;
+}
+
+/* gariss */
+.garis{
+    background-color: aqua;
+    height: 1px;
+
+}
+/* bg content */
+.bg-vid2 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 187vh;
+    object-fit: cover;
+    z-index: -2;
+    display: flex;
+}
+.bg-vid3 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+    display: flex;
+}
+.ket {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    justify-content: center;
+}
+/* card keterangan */
+.containerket {
+    width: 25%;
+    background-color: slategray;
+    padding-right: 19px;
+    margin-left: 100px;
+    padding-top: 2px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px; 
+}
+/* teks keterangan */
+.teksket {
+    font-family: 'Arial';
+    color: #fff;
+    text-align: justify;
+    margin-left: 20px;
+}
+.ket img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ikon {
+    color: #000000;
+    justify-content: space-between;
+    margin-left: 5px;
+    display: flex;
+    padding-top: 1px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    margin-top: 4px;
+}
+.kartuik {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 187px;
+    height: 30px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tul {
+    margin-right: 21px;
+    font-size: 15px;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.kartuik1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 187px;
+    height:30px;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+.ikonhs {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.poskart {
+    display:flex ;
+    justify-content: space-between;
+}
+/* keterangan done css */
+.inpt::-webkit-inner-spin-button {
+    display: none;
+}
+.Boxid {
+    margin-top: 10px;
+    background-color: white;
+    position: relative;
+    width: 55%;
+    left: 40%;
+    display: flex;
+    bottom: 535px;
+    padding-top:10px;
+    border-radius: 5px;
+}
+.inpt{
+    width: 200px;
+    font-size: 1em;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.posisi {
+    display: flex;
+    align-items: center; 
+}
+.tlsn {
+    position: absolute;
+    display: flex;
+    margin-left: 65px;
+    bottom: 145px;
+}
+.ketop {
+    font-size: .6em;
+    text-align: justify;
+    color :grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.er1 {
+    position: relative;
+font-size: 1.2em;
+    right: 144px;
+}
+.er2 {
+    position: relative;
+    font-size: 1.2em;
+    right: 30px;
+}
+.inptbox1 input {
+    padding-left: 15px;
+    width: 130px;
+}
+.no1 {
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border:solid white 4px;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+}
+.no1 b {
+    font-size: 1.5em;
+}
+.no2 {
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border:solid white 4px;
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+}
+.no2 b {
+    font-size: 1.5em;
+}
+.btn {
+    border-color: slategray;
+    background-color: transparent;
+    width: 130px;
+    height: 170px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border-width: .1rem;
+    cursor: pointer;
+}
+
+.btn.active {
+    background-color: rgba(255, 115, 0, 0.601);
+    border-color: rgb(255, 115, 0);
+    border-width: .2rem;
+}
+.cbdl {
+    margin-top: 40px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.trdpl {
+    margin-top: 30px;
+    background-color: #fff;
+    position: relative;
+    width: 55%;
+    left: 40%;
+    display: flex;
+    bottom: 535px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.tlsn1 {
+    position: absolute;
+    display: flex;
+    margin-left:70px;
+    margin-top: 5px;
+}
+.tlis {
+    background-color: rgb(245, 246, 247);
+    height: 45px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: block;
+    text-align: right;
+}
+.har {
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(249, 52, 52);
+}
+.har1 {
+    font-size: .7em;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(248, 96, 96);
+}
+.har2 {
+    text-align: center;
+    margin-right: 5px;
+    font-size: .6em;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(0, 93, 19);
+    background-color: rgb(0, 255, 132);
+    border-radius: 10px;
+}
+.dis {
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}
+/* Transaksi done */
+/* Pembayaran */
+.gopay {
+    display: flex;
+    justify-content: flex-start;
+    margin-left:10px ;
+}
+.ovo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left:10px ;
+}
+.dana {
+    display: flex;
+    justify-content: flex-start;
+    margin-left:-5px ;
+}
+.pembut {
+    position: relative;
+    margin-top:40px ;
+    width: 240px;
+    height: 70px;
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+    border-color: slategray;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.pembut.active {
+    background-color: rgba(255, 115, 0, 0.601);
+    border-color: rgb(255, 115, 0);
+    border-width: .2rem;
+}
+.dispform {
+    width: 55%;
+    margin-top: 30px;
+    left: 40%;
+    display: flex;
+    bottom: 535px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 30px;
+}
+.hggpy {
+    margin-right:8px;
+    font-family:Helvetica;
+    font-weight: bold;
+}
+/* Pembayaran Done */
+/* Bayar */
+.baysr {
+    width: 55%;
+    margin-top: 30px;
+    left: 40%;
+    bottom: 535px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.sbmt {
+    width: 200px;
+    height: 60px;
+    border-radius:10px;
+    background-color: rgb(245, 246, 247);
+    cursor: pointer;
+    border-color: slategray;
+    position: relative;
+    border-radius: 7px;
+}
+.sbmt :hover {
+    background-color: rgb(255, 140, 46);
+    border-width: .2rem;
+    border-radius: 5px;
+}
+.tlu {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 21px;
+    padding-bottom:20px;
+    border-radius: 9px;
+}
+
+.posumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tlsn2 {
+    position: absolute;
+    display: flex;
+    margin-left:70px;
+    margin-top: -40px;
+}
+/* struk */
+.kotakstruk {
+    display: none;
+    width: 25%;
+    margin-top: 30px;
+    left: 37%;
+    bottom: 55px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-bottom: 30px;
+    justify-content: center;
+    padding:15px;
+    padding-bottom: 0;
+}
+.closeicon {
+    position: relative;
+    left: 360px;
+    cursor: pointer;
+}
+
+.tlsn3 {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    color: rgb(255, 140, 46);
+}
+.pid {
+    font-family:Helvetica;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.Idstruk {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.lbl{
+    font-size: .8em;
+    text-align: justify;
+    color :grey;
+    margin-top: 20px;
+}
+.Idstruk1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Idstruk2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kotakbyr {
+    margin-top: 200px;
+    background-color: rgb(245, 246, 247);
+    position: relative;
+    width: 408px;
+    height: 60px;
+    right: 15px;
+    border-radius: 6px;
+}
+.ttl {
+    margin-left: 20px;
+    color: grey;
+}
+.pay {
+    width: 100px;
+    height: 35px;
+    border-radius:10px;
+    background-color: rgb(255, 140, 46);
+    cursor: pointer;
+    border-color: slategray;
+    position: absolute;
+    border-radius: 30px;
+    left: 290px;
+    bottom: 13px;
+}
+.hgr {
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgba(249, 52, 52, 0.758);
+    position: relative;
+}
+
+#strukk{
+    display: none;
+}
+/* footer */
+.footer{
+    background-color: rgb(16, 13, 13);
+}
+
+.foot{
+ display: flex;   
+ margin-top: 30px;
+}
+
+.imgfot1{
+    width: 56px;
+    height: 56px;
+}
+
+.imgfot2{
+    width: 56px;
+    height: 56px;
+}
+
+.fottext{
+    color: white;
+    font-size: larger;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    flex: content;
+}
+.posfot {
+    display: block;
+}
+.posfot img {
+    background-color: #fff;
+}
+
+/* footer done */
+/* mulai gopay */
+.containerpayment {
+    position: relative;
+    width: 25%;
+    margin-top: 50px;
+    left: 37%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    justify-content: center;
+    padding:15px;
+    margin-bottom: 50px;
+}
+.containerpayment hr {
+    border-width: 1px;
+    border-color: #000000;
+}
+.judpem {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.ftpem {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tulgop {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+}
+.tekstimer {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left:5px ;
+    background-color: #2d2d2ddf;
+    padding: 5px;
+    border-radius: 10px;
+}
+.goopay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.gbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+.bungkustimer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnlnjut {
+    width: 40%;
+    height: 40px;
+    border-radius:10px;
+    background-color: rgb(245, 246, 247);
+    cursor: pointer;
+    border-color: rgb(144, 112, 112);
+    position: relative;
+    border-radius: 40px;
+    margin-top: 10px
+}
+.btnlnjut :hover {
+    background-color: rgb(255, 140, 46);
+    border-style:solid red 3px ;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px;
+    position: relative;
+}
+/* Popup Lanjut */
+.containerlanjut {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position:relative;
+    width: 25%;
+    left: 36.8%;
+    border-radius: 5px;
+    background-color:white;
+    padding-bottom: 30px;
+    justify-content: center;
+    padding:15px;
+    bottom: .8%;
+    text-align: center;
+    /* backdrop-filter: blur(15px); */
+    border: solid rgb(54, 54, 54) 3px;
+    color: rgb(0, 0, 0);
+    height: 610px;
+}
+.containerlanjut {
+    display: none;
+}
+.containerlanjut hr {
+    border-width: 1px;
+    border-color: #000000;
+}
+.Akup {
+    margin-top: 10px;
+    font-family: sans-serif;
+    justify-content: justify;
+    font-weight: bold;
+    font-size: 15x;
+    margin-bottom: 10px;
+    /* -webkit-text-stroke-width:.6px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
+}
+#Akupni {
+    margin-top: 20px;
+}
+
+.gmbrimg1 {
+    position: relative;
+    display: flex;
+    left: 30%;
+    margin-bottom:10px ;
+}
+.kotakfast {
+    display: block;
+}
+.kotakmedsos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.kotakmedsos img{
+    margin-right: 10px;
+    cursor: pointer;
+}
