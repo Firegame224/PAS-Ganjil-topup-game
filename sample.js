@@ -151,10 +151,10 @@ function Munculkanpopup(Sini){
     lanjutstruk.style.display='Block';
     strukgopay.style.display='none';
     setTimeout(()=>{
-        location.href='Sampletopup.html'
+        location.href='beranda.html'
     },4000);
     } else {
-    location.href='Sampletopup.html';
+    location.href='beranda.html';
     }
 }
 
