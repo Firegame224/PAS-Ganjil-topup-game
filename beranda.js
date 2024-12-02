@@ -1,15 +1,15 @@
-let slideIndex = 0;
-showSlides();
+let Gambar = 0;
+Ngapain();
 
-function showSlides() {
+function Ngapain() {
   let slides = document.getElementsByClassName("slide");
   for (let i = 0; i < slides.length; i++) {
     slides[i].classList.remove("active");
   }
-  slideIndex++;
-  if (slideIndex >= slides.length) { 
-    slideIndex = 0; 
+  Gambar++;
+  if (Gambar >= slides.length) { 
+    Gambar = 0; 
   }
-  slides[slideIndex].classList.add("active");
-  setTimeout(showSlides, 3000); 
+  slides[Gambar].classList.add("active");
+  setTimeout(Ngapain, 3000); 
 }
