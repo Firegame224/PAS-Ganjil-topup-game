@@ -99,11 +99,11 @@ function TampilkanAngka() {
 
 function Bayar(Ser){
     if(Ser === 'ahay' && document.querySelector('.pembut.active#gopay')){
-        window.location.href = 'gopay.html';
+        window.location.href = '../gopay.html';
     } else if (Ser === 'ahay' && document.querySelector('.pembut.active#dana')){
-        window.location.href = 'dana.html';
+        window.location.href = '../dana.html';
     } else if (Ser === 'ahay' && document.querySelector('.pembut.active#ovo')){
-        window.location.href = 'ovo.html';
+        window.location.href = '../ovo.html';
     }
 };
 
@@ -152,10 +152,10 @@ function Munculkanpopup(Sini){
     lanjutstruk.style.display='Block';
     strukgopay.style.display='none';
     setTimeout(()=>{
-        location.href='beranda.html'
+        location.href='../beranda'
     },4000);
     } else {
-    location.href='beranda.html';
+    location.href='../beranda';
     }
 }
 

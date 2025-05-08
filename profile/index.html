@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya - FastStore</title>
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="shortcut icon" href="../img/Group 1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Profil Saya</h1>
+      <div class="profile-info">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKaiKiPcLJj7ufrj6M2KaPwyCT4lDSFA5oog&s"
+          alt="Foto Profil"
+        />
+        <div class="details">
+          <label>Email:</label>
+          <p id="email"></p>
+
+          <label>Username:</label>
+          <p id="username"></p>
+
+          <label>Nomor HP:</label>
+          <p id="phone"></p>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="update.html">Edit Profil</a>
+        <p class="btn" id="logout" onclick={Keluar()}>Keluar</p>
+      </div>
+    </div>
+
+    <video class="bgvid" src="../img/bg-daftar.mp4" loop autoplay muted></video>
+    <script src="profile.js"></script>
+  </body>
+</html>

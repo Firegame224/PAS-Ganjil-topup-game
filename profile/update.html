@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Profil - FastStore</title>
+    <link rel="stylesheet" href="update.css" />
+    <style></style>
+  </head>
+  <body>
+    <video src="../img/bg-vid body.mp4" loop muted autoplay class="video"></video>
+    <div class="container">
+      <h1>Update Profil</h1>
+      <form onsubmit="updateUser(event)">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="inputMail"
+          name="email"
+          disabled
+        />
+
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="inputUsername"
+          name="username"
+          placeholder="Masukkan username"
+          required
+        />
+
+        <label for="phone">Nomor HP</label>
+        <input
+          type="tel"
+          id="inputPhone"
+          name="phone"
+          placeholder="+62 8xxx"
+          required
+        />
+        <button type="submit" class="btn-submit">Simpan Perubahan</button>
+      </form>
+    </div>
+  </body>
+  <script src="./update.js"></script>
+</html>

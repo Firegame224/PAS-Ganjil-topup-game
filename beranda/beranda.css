@@ -86,6 +86,70 @@ body {
     transition: border-color 0.3s ease; 
 }
 
+
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-dropdown .icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    border: 1px solid aqua;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+    font-size: small;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;;
+  }
+  
+  .dropdown-menu li a:hover {
+    color: black;
+    margin-bottom: 10px;
+    background-color: aqua;
+  }
+  
+  .profile-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+
+.icons{
+    display: flex;
+    margin-left: 20px; 
+    text-decoration: none;
+    color:white; 
+    align-items: center;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease;
+    width: 40px;
+    border-radius: 10px;
+}
+
 /* Hoverrr */
 .list:hover{
     border-bottom: 2px solid white; 
